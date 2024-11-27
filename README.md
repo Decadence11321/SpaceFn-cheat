@@ -1,0 +1,2 @@
+# SpaceFn-cheat
+work
