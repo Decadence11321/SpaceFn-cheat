@@ -91,7 +91,7 @@ popup2:Play()
 
 wait(1)
 
-local pop = ts:Create(quotasloader, TweenInfo.new(1), {TextTransparency = 0})
+local pop = ts:Create(SpaceFn, TweenInfo.new(1), {TextTransparency = 0})
 pop:Play()
 
 wait(0.2)
@@ -128,7 +128,7 @@ dis4:Play()
 
 wait(0.2)
 
-local trans = ts:Create(quotasloader, TweenInfo.new(1.5), {TextTransparency = 1})
+local trans = ts:Create(SpaceFn, TweenInfo.new(1.5), {TextTransparency = 1})
 trans:Play()
 
 Loader.Visible = false
@@ -140,7 +140,7 @@ local Blurry = Instance.new("ImageLabel")
 local UICorner_2 = Instance.new("UICorner")
 local Title = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local quotasname = Instance.new("TextLabel")
+local SpaceFnname = Instance.new("TextLabel")
 local Blurred = Instance.new("ImageLabel")
 local UICorner_4 = Instance.new("UICorner")
 local EspEnable = Instance.new("ImageButton")
